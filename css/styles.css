@@ -1,0 +1,185 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-color: #2196F3;
+    --secondary-text-color: #757575;
+    --secondary-accent-color: #FFF;
+}
+.list {
+    list-style: none;
+}
+body {
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+/* Header */
+.page-header {
+    background-color: #FFF;
+}
+.logo {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-family: raleway, sens-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo span {
+    color: var(--accent-color);
+}
+.site-nav a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.header-contacts .link:hover,
+.header-contacts .link:focus,
+.footer-adress .link:hover,
+.footer-adress .link:focus {
+    color: var(--accent-color)
+}
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+.header-contacts a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* Main */
+.hero {
+    color: var(--secondary-accent-color);
+    background-color: #2F303A;
+}
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--secondary-accent-color);
+    font-family: roboto, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+.main-section {
+    background-color: #FFF;
+}
+.main-ourteam {
+    background-color: #F5F4FA;
+}
+.main-section h2,
+.main-ourteam h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    }
+.main-section p {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+ }
+.main-section h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    text-transform: uppercase;
+}
+.main-ourteam h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.main-ourteam p {
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    }
+
+/* Footer */
+.logo .studio {
+    color: var(--secondary-accent-color);
+}
+.footer-adress .adress {
+    text-decoration: none;
+    color: var(--secondary-accent-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.footer-adress a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.page-footer {
+    color: var(--secondary-accent-color);
+    background-color: #2F303A;
+}
+/* Portfolio */
+
+.portfolio-section {
+    background-color: #FFF;
+}
+.invisible-title {
+    font-size: 16px;
+    color: #FFF;
+}
+.portfolio-section p {
+    color: var(--secondary-text-color);
+}
+.portfolio-section .portfolio-button {
+    background-color: #F5F4FA;
+} 
+.portfolio-section .portfolio-button:hover,
+.portfolio-section .portfolio-button:focus {
+    color: var(--secondary-accent-color);
+    background-color: var(--accent-color);
+}
+.portfolio-button {
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+   }
+.portfolio-text h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text p {
+    font-size: 16px;
+    line-height: 1.88;
+    }
