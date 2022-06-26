@@ -35,6 +35,11 @@ p {
         }
 .page-header {
     /* background-color: tomato; */
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ececec;
 }
 .logo {
     display: inline-block;
@@ -44,10 +49,9 @@ p {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    padding-top: 24px;
-    padding-bottom: 25px;
-  
-}
+
+    }
+
 .logo .web {
     color: var(--accent-color);
 }
@@ -142,7 +146,7 @@ p {
     width: auto;
     padding: 10px 32px;
     border-radius: 4px;
-   
+    border-style: hidden;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -208,7 +212,9 @@ p {
     color: var(--secondary-accent-color);
 
 }
-
+.page-footer a {
+    margin-bottom: 20px;
+}
 
 .footer-adress .adress {
     text-decoration: none;
@@ -223,6 +229,15 @@ p {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    
+}
+
+.footer-adress li{
+    margin-bottom: 9px;
+    
+}
+.footer-adress .footer-adress-item:last-child {
+    margin-bottom: 0px;
 }
 .page-footer {
     color: var(--secondary-accent-color);
@@ -235,10 +250,17 @@ p {
 
 .portfolio-section {
     background-color: #FFF;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.button-list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
 }
 .invisible-title {
-    font-size: 16px;
-    color: #FFF;
+    font-size: 0px;
+    color: transparent;
 }
 .portfolio-section p {
     color: var(--secondary-text-color);
@@ -252,13 +274,25 @@ p {
     background-color: var(--accent-color);
 }
 .portfolio-button {
+    display: inline-block;
     cursor: pointer;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-   }
+    padding: 6px 22px;
+    border-radius: 4px;
+    border-style: hidden;
+}
+
+.button-list li {
+    margin-right: 8px;
+}
+.button-list li:last-child {
+    margin-right: 0px;
+}
+
 .portfolio-text h2 {
     font-weight: 700;
     font-size: 18px;
