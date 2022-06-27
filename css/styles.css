@@ -207,8 +207,9 @@ p {
     border-bottom-left-radius: 4px;
 
 }
-.cards img {
-    margin-bottom: -4px;
+.cards img,
+.main-flex img {
+    display: block;
 }
 .cards h3 {
     margin-top: 30px;
